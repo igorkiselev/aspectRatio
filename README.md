@@ -31,3 +31,12 @@ Boolean. Show border for container and children objects and log height informati
 
 <pre>.aspectRatio({ addClass : 'aspectRatio' });</pre>
 String. Default name for the plug-in object class (mostly used for css effects);
+
+
+###Default html dome construction for the plug-in:
+
+<pre>
+&lt;div class="ratio" data-xs-ratio="1/1" data-sm-ratio="4/3" data-md-ratio="2/8" data-lg-ratio="16/9" data-xl-ratio="1/2">
+  anything
+&lt;/div>
+</pre>
